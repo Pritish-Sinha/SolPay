@@ -70,13 +70,13 @@ function Wallet() {
 
         <h4>Wallet</h4>
 
-        { <div className="network">
+        {/* <div className="network">
           <select className="section">
             <option>Devnet</option>
             <option>Testnet</option>
             <option>Mainnet</option>
           </select>
-        </div> }
+        </div> */}
         <Link href="/history">
           <MdHistory className="icon" />
         </Link>

@@ -10,7 +10,7 @@ export default function Header() {
           <Col sm={12} md={6} className="d-flex align-items-end">
             <div>
               <h1 className="header-h1 mb-3">
-                Not just a<br /> <b>Crypto Wallet it's SolPay.</b>
+                Not just a<br /> <b>Crypto Wallet.</b>
               </h1>
               <p className="p mb-3">
                 All in one crypto wallet for all your need. We make it safe &

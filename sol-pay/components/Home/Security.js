@@ -31,9 +31,9 @@ export default function Security() {
                 Most <b>Secure</b> Crypto Wallet
               </h1>
               <p className="p mb-5">
-                SolPay generates passwords and keys on your device, so only
+                CryptoPay generates passwords and keys on your device, so only
                 you have access to your accounts and data. You always choose
-                what to share and what to keep private.SolPay makes it safe &
+                what to share and what to keep private.CryptoPay makes it safe &
                 easy for you to store, buy, send, receive, swap tokens and
                 collect NFTs on the Solana blockchain.
               </p>

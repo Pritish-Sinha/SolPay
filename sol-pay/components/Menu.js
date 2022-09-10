@@ -73,11 +73,11 @@ export default function Menu() {
             <FiSettings className="icon" /> Staking
           </a>
         </Link>
-        { <Link href="/setting">
+        {/* <Link href="/setting">
           <a className="menu__link">
             <FiSettings className="icon" /> Setting
           </a>
-        </Link> }
+        </Link> */}
       </div>
     </div>
   );

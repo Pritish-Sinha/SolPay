@@ -38,7 +38,7 @@ function MerchantQr() {
     );
     const amount = new BigNumber(amount);
     const reference = new Keypair().publicKey;
-    const label = "General Store-SDS";
+    const label = "Krishna Store";
     const message = "General store - all you need";
     const memo = "INV#10001";
 
@@ -120,8 +120,8 @@ function MerchantQr() {
     console.log("requestAmount", requestAmount);
     const amount = new BigNumber(requestAmount);
     const reference = new Keypair().publicKey;
-    const label = "Apollo Store";
-    const message = "Medicine store - all you need";
+    const label = "Krishna Store";
+    const message = "General store - all you need";
     const memo = "JC#4098";
 
     console.log("3. 💰 Create a payment request link \n");
@@ -202,7 +202,7 @@ function MerchantQr() {
 
       <NavBar
         firstLink="/merchant"
-        title="General Store-SDS"
+        title="Krishna Store"
         secondLink="/merchant/generate-qr"
         secondIcon={<VscLoading className="loading icon" />}
       />
@@ -226,7 +226,7 @@ function MerchantQr() {
         </div>
 
         <p>
-          <b>Scan this code with your SolPay Wallet</b>
+          <b>Scan this code with your CryptoPay Wallet</b>
           <br />
           {` You'll be asked to approve the transaction`}
           <p className="status">{paymentStatus}</p>
