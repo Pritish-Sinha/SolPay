@@ -25,7 +25,7 @@ function Merchant() {
     <div className="merchant wallet">
       <NavBar
         firstLink="/wallet"
-        title="Krishna Store"
+        title="SDS NRI City General Store"
         secondLink="/merchant/show-qr"
         secondIcon={<IoQrCodeOutline className="icon" />}
       />
