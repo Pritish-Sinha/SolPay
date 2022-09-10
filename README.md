@@ -27,11 +27,11 @@ SolPay generates passwords and keys on your device, so only you have access to y
 
 ![Landing Page](/Public/front.jpg?raw=true "Landing Page")
 
-### Example catalog page:
+### Example wallet page:
 
 ![Wallet view](/Public/wallet.jpg?raw=true "Wallet view")
 
-### Example NFT item page:
+### Example Qr Generate page:
 
 ![QR-Generate](/Public/qr.jpg?raw=true "QR-Generate")
 
