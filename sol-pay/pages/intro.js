@@ -8,9 +8,9 @@ export default function Intro() {
     <div className="intro">
       <div className="intro__title">
         <img src="/logo2.png" alt="logo" />
-        <h3 className="h3">Welcome to CryptoPay</h3>
+        <h3 className="h3">Welcome to SolPay</h3>
         <p className="p">
-          Trusted by people, CryptoPay is a secure wallet makeing the
+          Trusted by people, SolPay is a secure wallet makeing the
           Decentralised payments accessible to all.
         </p>
       </div>

@@ -17,7 +17,7 @@ function ShowQr() {
 
   useEffect(() => {
     const publicKey = Cookies.get("publicKey");
-    const urlData = `https://cpay.vercel.app/pay?address=${publicKey}`;
+    const urlData = `https://solpay.vercel.app/pay?address=${publicKey}`;
     setUrl(urlData);
   }, []);
 
@@ -26,7 +26,7 @@ function ShowQr() {
 
       <NavBar
         firstLink="/merchant"
-        title="Krishna Store"
+        title="SDS NRI City Store"
         secondLink="/merchant/show-qr"
         secondIcon={ <GiShare className="icon" />}
       />
@@ -49,7 +49,7 @@ function ShowQr() {
           <PoweredBy />
         </div>
 
-        <p>Scan this code with your CryptoPay Wallet</p>
+        <p>Scan this code with your SolPay Wallet</p>
       </div>
     </div>
   );
