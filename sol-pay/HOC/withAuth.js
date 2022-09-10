@@ -10,7 +10,7 @@ const withAuth = (WrappedComponent) => {
       // If there is no access token we redirect to "/" page.
       if (!pKey) {
         Router.replace("/");
-        return nulgit l;
+        return nulgit;
       }
 
       // If this is an accessToken we just render the component that was passed with all its props
