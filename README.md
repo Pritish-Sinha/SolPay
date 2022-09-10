@@ -25,15 +25,15 @@ SolPay generates passwords and keys on your device, so only you have access to y
 
 ### Example front page:
 
-![Landing Page](/Public/front.jpg?raw=true "Landing Page")
+![Landing Page](/Public/qr.png?raw=true "Landing Page")
 
 ### Example wallet page:
 
-![Wallet view](/Public/wallet.jpg?raw=true "Wallet view")
+![Wallet view](/Public/wallet.png?raw=true "Wallet view")
 
 ### Example Qr Generate page:
 
-![QR-Generate](/Public/qr.jpg?raw=true "QR-Generate")
+![QR-Generate](/Public/front.png?raw=true "QR-Generate")
 
 ## How we built it
 The service is built using React.js for the front end, Next.js for the framework.
