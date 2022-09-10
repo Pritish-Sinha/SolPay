@@ -12,22 +12,16 @@ export default function Nav() {
           </Col>
           <Col className="hide-on-phone ">
             <div className="nav__links">
-              <Link href="#">Start</Link>
+              <Link href="/Services.js">Services</Link>
             </div>
             <div className="nav__links">
-              <Link href="#">Services</Link>
+              <Link href="/Features.js">Features</Link>
             </div>
             <div className="nav__links">
-              <Link href="#">Features</Link>
+              <Link href="/Security.js">Security</Link>
             </div>
             <div className="nav__links">
-              <Link href="#">Security</Link>
-            </div>
-            <div className="nav__links">
-              <Link href="#">Web3.0</Link>
-            </div>
-            <div className="nav__links">
-              <Link href="#">Merchant</Link>
+              <Link href="/Web3.js">Web3.0</Link>
             </div>
           </Col>
         </Row>
