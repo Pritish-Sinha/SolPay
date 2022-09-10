@@ -9,8 +9,7 @@ export default function Features() {
           <Col sm={12} md={6}>
             <h1 className="h1">Home for all your NFTs</h1>
             <p className="p">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Buy,Mint and Sell your NFTs with just few clicks
             </p>
           </Col>
 
@@ -23,8 +22,7 @@ export default function Features() {
           <Col sm={12} md={6}>
             <h1 className="h1">Earn Cashbacks</h1>
             <p className="p">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Save on gas charges in each transaction and receive cashback offers!!
             </p>
           </Col>
 
@@ -37,8 +35,7 @@ export default function Features() {
           <Col sm={12} md={6}>
             <h1 className="h1">Swap with ease</h1>
             <p className="p">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Connect your other crypto wallet and swap coins easily.
             </p>
           </Col>
 
@@ -51,8 +48,7 @@ export default function Features() {
           <Col sm={12} md={6}>
             <h1 className="h1">Access Dapps</h1>
             <p className="p">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Running on peer-to-peer connection for easy connect.
             </p>
           </Col>
 
@@ -65,8 +61,7 @@ export default function Features() {
           <Col sm={12} md={6}>
             <h1 className="h1">Pay to Merchants</h1>
             <p className="p">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Pay through scan Qr-Codes!!
             </p>
           </Col>
 
@@ -79,8 +74,7 @@ export default function Features() {
           <Col sm={12} md={6}>
             <h1 className="h1">Get Cash with ease</h1>
             <p className="p">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Add cash using bank peers.
             </p>
           </Col>
 

@@ -26,7 +26,7 @@ function ShowQr() {
 
       <NavBar
         firstLink="/merchant"
-        title="SDS NRI City Store"
+        title="Pritish"
         secondLink="/merchant/show-qr"
         secondIcon={ <GiShare className="icon" />}
       />

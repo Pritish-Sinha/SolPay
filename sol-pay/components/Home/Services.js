@@ -45,24 +45,7 @@ export default function Services() {
               title={"Trade with your Crypto and Earn passive Income"}
             />
           </Col>
-
-          <Col sm={12} md={4}>
-            <Card
-              bgSrc={
-                "https://nexo.io/media/pages/home/2b69e64c60-1645098285/banner-exchange-cashback.png"
-              }
-              title={"Buy, Sell, Swap & Earn up to 0.5% Cashback"}
-            />
-          </Col>
-          <Col sm={12} md={4}>
-            <Card
-              bgSrc={
-                "https://nexo.io/media/pages/home/dce956fce0-1645098285/banner-dynamic-interest.png"
-              }
-              title={"Borrow Against Your Crypto at Just 0% APR "}
-            />
-          </Col>
-          <Col sm={12} md={4}>
+            <Col sm={12} md={4}>
             <Card
               bgSrc={
                 "https://img.freepik.com/free-photo/closeup-young-lady-use-cellphone-order-online-shopping-product-pay-bills-with-credit-card-living-room-interior-house_7861-3274.jpg?w=1480"

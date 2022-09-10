@@ -87,7 +87,7 @@ function Wallet() {
           <img src="/profile.png" alt="profile" />
         </div>
         <div>
-          <h3 className="h3 mb-3">Account 1</h3>
+          <h3 className="h3 mb-3">Pritish</h3>
           <p className="p balance mb-3">
             ₹ {(price * balance).toFixed(2)}
           </p>
