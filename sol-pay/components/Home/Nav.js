@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
 export default function Nav() {
   return (
     <div className="nav">
@@ -12,16 +11,16 @@ export default function Nav() {
           </Col>
           <Col className="hide-on-phone ">
             <div className="nav__links">
-              <Link href="/Services.js">Services</Link>
+              <Link href="sol-pay/components/Home/Services.js">Services</Link>
             </div>
             <div className="nav__links">
-              <Link href="/Features.js">Features</Link>
+              <Link href="sol-pay/components/Home/Features.js">Features</Link>
             </div>
             <div className="nav__links">
-              <Link href="/Security.js">Security</Link>
+              <Link href="sol-pay/components/Home/Features.js">Security</Link>
             </div>
             <div className="nav__links">
-              <Link href="/Web3.js">Web3.0</Link>
+              <Link href="sol-pay/components/Home/Web3.js">Web3.0</Link>
             </div>
           </Col>
         </Row>
