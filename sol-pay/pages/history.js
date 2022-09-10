@@ -1,4 +1,4 @@
-gitimport React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { IoQrCodeOutline } from "react-icons/io5";
 import History from "../components/common/History";
 import NavBar from "../components/common/NavBar";
