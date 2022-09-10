@@ -1,0 +1,241 @@
+// FONTS
+@font-face {
+    font-family: "Euclid Medium";
+    src: url("/fonts/Euclid Circular B Medium.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Euclid SemiBold";
+    src: url("/fonts/Euclid Circular B SemiBold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+// MIXINS
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// VARIABLES
+$font-primary: "Euclid Medium";
+$font-secondary: "Euclid SemiBold";
+
+// color
+$color-font: #333333;
+$color-blue: #249192;
+$color-gray: #F7F9FB;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-primary;
+}
+
+// TYPOGRAPHY
+.h1 {
+    font-family: $font-secondary;
+    font-size: 48px;
+}
+.header-h1{
+    font-size: 70px;
+}
+.p {
+    font-family: $font-primary;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4a5056;
+}
+.h3 {
+    font-family: $font-secondary;
+    font-size: 24px;
+    color: $color-font;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .p {
+        font-size: 16px;
+    }
+    .header-h1{
+        font-size: 45px;
+    }
+}
+
+// BASE STYLE
+.cont {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.icon {
+    font-size: 25px;
+    margin: 0 10px;
+}
+.butns {
+    width: 100%;
+}
+.butn {
+    width: fit-content;
+    max-width: 400px;
+    margin: 10px 0;
+    padding: 12px 30px;
+    outline: none;
+    border: 2px solid $color-blue;
+    border-radius: 25px;
+    overflow: hidden;
+    font-size: 15px;
+
+    color: $color-blue;
+    cursor: pointer;
+
+    background: transparent;
+    transition: all 0.5s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+    &--fill {
+        // background-color: $color-blue;
+        border: none;
+        background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(87, 160, 197, 1) 50%);
+        color: #fff;
+    }
+
+    .icon{
+        font-size: 25px;
+        margin-right: 10px;
+    }
+
+    &--full{
+        width: 100%;
+    }
+
+    &--2{
+        padding: 0;
+        border: none;
+        color: $color-font;
+        font-size: 13px;
+        border-radius: 0;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+.inp {
+    border: none;
+    outline: none;
+    font-family: $font-primary;
+}
+.textarea{
+    border: 1px solid #ededed;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 15px;
+}
+.inp-txt{
+    border: 1px solid #ededed;
+    padding: 10px 15px;
+    font-size: 15px;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    border-radius: 12px;
+}
+.section{
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+
+    &--big{
+        max-width: 1600px;
+    }
+}
+.sm-bm-5{
+    @media only screen and (max-width: 600px){
+        margin-bottom: 25px;
+    }
+}
+a{
+    text-decoration: none !important;
+    color: $color-font !important;
+
+    &:hover{
+        color: #000 !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hide-on-phone {
+        display: none !important;
+    }
+    .sm-mb-5 {
+        margin-bottom: 30px;
+    }
+}
+
+.hide-on-pc {
+    @media only screen and (min-width: 601px) {
+        display: none;
+    }
+}
+
+// OVERWRITE VALUE
+a {
+    text-decoration: none;
+    color: rgb(42, 41, 41);
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+ion-icon {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: radial-gradient(18.02% 49.93% at 55.58% 50.07%, #b1d26f 0%, #b1d26f 0.01%, #60e7ce 100%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
+
+.loading {
+    animation: rotation 2s infinite linear;
+}
+
+// Animations
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+// reset
+p, h3, h1, h2{
+    margin: 0 !important;
+}

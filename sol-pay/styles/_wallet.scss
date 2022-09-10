@@ -1,0 +1,84 @@
+.wallet {
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 15px;
+
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+
+    .section {
+        /* for Firefox */
+        -moz-appearance: none;
+        /* for Safari, Chrome, Opera */
+        -webkit-appearance: none;
+
+        background-color: transparent;
+        border: 1px solid $color-gray;
+        padding: 5px 10px;
+        border-radius: 25px;
+        outline: none;
+    }
+
+    &__profile {
+        padding: 50px;
+        text-align: center;
+
+        .balance{
+            margin: 10px 0 20px 0;
+            font-size: 20px;
+        }
+
+        .btns{
+            margin: 50px 0 0px 0;
+            display: flex;
+            justify-content: space-around;
+            .b{
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                overflow: hidden;
+                border-radius: 50%;
+                background-color: $color-blue;
+                color: #fff;
+                font-size: 20px;
+
+                text-align: center;
+                margin: 5px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .p{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .address{
+        width: fit-content;
+        margin: 10px auto;
+        border-radius: 25px;
+        padding: 5px 20px;
+        background-color: rgba($color-blue, 0.2);
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__profile-img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 10px auto;
+
+        img{
+            width: 100%;
+        }
+
+        
+    }
+}

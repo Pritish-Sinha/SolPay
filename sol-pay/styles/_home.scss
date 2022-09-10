@@ -1,0 +1,128 @@
+// Nav
+.nav {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+// Header
+.header {
+    padding: 50px 25px;
+    border-bottom: 1px solid #ededed;
+    &__row {
+        min-height: 80vh;
+
+        @media only screen and (max-width: 600px){
+            flex-direction: column-reverse;
+            justify-content: space-around;
+        }
+    }
+}
+
+// Services
+.services {
+    width: 100%;
+    padding: 50px 0;
+    border-bottom: 1px solid #ededed;
+
+    &__card {
+        overflow: hidden;
+        border-radius: 10px;
+        position: relative;
+        height: 150px;
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        margin-bottom: 25px;
+
+        p {
+            width: 50%;
+        }
+
+        &__img-box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            width: 100%;
+            height: 150px;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+// security
+.security {
+    width: 100%;
+    padding: 80px 25px;
+    border-bottom: 1px solid #ededed;
+
+    &__row1 {
+        margin-bottom: 80px;
+    }
+    &__row2 {
+        border-top: 1px solid #ededed;
+        padding-top: 80px;
+    }
+}
+
+// web3
+.web3 {
+    padding: 80px 25px;
+    text-align: center;
+    background-color: $color-gray;
+
+    .h1 {
+        margin-bottom: 80px;
+    }
+}
+
+// Features
+.features {
+    padding: 100px 25px;
+    background-color: $color-gray;
+    border-bottom: 1px solid #ededed;
+
+    &__box {
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 20px;
+        max-width: 1100px !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+
+        &__img{
+            img{
+                width: 100%;
+            }
+        }
+
+        .h1{
+            margin-bottom: 10px !important;
+        }
+        .p{
+            margin-bottom: 20px !important;
+        }
+    }
+
+    &__box2 {
+        flex-direction: column;
+        padding: 50px;
+        margin: 5px;
+        max-width: 550px !important;
+
+        img {
+            width: 100%;
+        }
+    }
+}

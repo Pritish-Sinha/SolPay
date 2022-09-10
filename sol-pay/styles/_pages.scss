@@ -1,0 +1,180 @@
+.intro {
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: center;
+    min-height: 100vh;
+    padding: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    &__title {
+        .h3 {
+            margin: 15px 0;
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.create-wallet {
+    .secret-phrase-box {
+        border: 2px solid #ededed;
+        border-radius: 25px;
+        padding: 20px;
+        width: 100%;
+
+        font-size: 30px;
+    }
+}
+
+.merchant {
+    &__enter-amount {
+        padding: 50px;
+        text-align: center;
+
+        .inp {
+            width: 80%;
+            text-align: center;
+            font-size: 50px;
+            margin: 20px 0;
+        }
+    }
+
+    &__spay {
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            color: #888;
+
+            img {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .g-code {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+
+        .btn {
+            width: fit-content;
+            margin: 10px auto;
+        }
+    }
+}
+
+.merchant-qr {
+    &__qr-box {
+        min-height: 90vh;
+        padding: 50px 30px;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .h1 {
+            font-size: 50px;
+        }
+
+        img {
+            width: 100%;
+            margin: 50px 0;
+        }
+    }
+
+    .qr-code {
+        margin: 30px 0;
+        height: auto;
+    }
+
+    .status {
+        padding: 10px;
+        color: $color-blue;
+    }
+}
+
+.wallet {
+    .s-pay {
+        width: 100%;
+        position: fixed;
+        bottom: 20px;
+        left: 0;
+        text-align: center;
+
+        .butn {
+            width: fit-content;
+            margin: 0 auto;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        }
+    }
+}
+
+.qr-code {
+    width: 100%;
+    height: 100vh;
+
+    .qr-code-cam {
+        width: 100%;
+        height: 100vh;
+        div, video, section{
+            width: 100%;
+            height: 100vh !important;
+            border: none !important;
+            box-shadow: none !important;
+        }
+        video{
+            width: 100%;
+            height: 100vh !important;
+        }
+    }
+
+    .nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        backdrop-filter: blur(10px);
+    }
+}
+
+.make-payment{
+
+    &__details{
+        width: 100%;
+        min-height: 90vh;
+        text-align: center;
+        padding: 50px;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .h1{
+        font-size: 32px;
+
+    }
+    .h2{
+        font-size: 28px;
+        padding: 20px;
+        color: green;
+    }
+}
